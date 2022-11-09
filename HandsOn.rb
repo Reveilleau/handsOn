@@ -27,19 +27,6 @@ class HandsOn
         return friendlist.reject {|i| !i.length.eql?(4)}
     end
 
-    def starPyramid(rows)
-        raise "Undefined method starPyramid for #{rows.class} expected positive Integer" unless rows.class.eql?(Integer) || row > 0
-        result = []
-        (rows-row).times {result << " "} 
-        result.each {|elem| }
-        # for row in 0..rows
-        #     binding.pry
-        #     result[row] << "*" * (row + 2)
-        #     row.times {result << "*"}
-        #     (row-1).times {result << "*"}
-        # end
-    end
-
 end
 
 handsOn = HandsOn.new
