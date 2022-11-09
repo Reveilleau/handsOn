@@ -28,7 +28,3 @@ class HandsOn
     end
 
 end
-
-handsOn = HandsOn.new
-
-handsOn.starPyramid(5)
